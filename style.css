@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-width {
+  width: 1240px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+/**** 
+
+Top Navigation 
+
+****/
+header {
+  background-color: #1d1d1f;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/****
+
+Hero Section
+
+****/
+section {
+  background-color: black;
+}
