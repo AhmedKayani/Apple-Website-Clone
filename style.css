@@ -6,7 +6,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  background-color: #fff;
+  color: #fff;
 }
 
 .container-width {
@@ -29,11 +30,23 @@ li {
 .container-align-top {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
   overflow: hidden;
   flex-wrap: wrap;
+  padding: 60px;
+}
+
+.container-align-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 60px;
 }
 
 /**** 
@@ -70,15 +83,18 @@ section {
 }
 
 .hero-section {
-  background-color: black;
+  background-image: url("/Assets/hero-iPhone-15-pro-large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 h2 {
-  font-size: 72px;
+  font-size: 64px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 200;
 }
 
@@ -111,6 +127,26 @@ iPhone 15 Section
 ****/
 
 .iphone-15-section {
-  background-color: #fff;
+  background-color: #fbfbfd;
   color: #1d1d1f;
+  margin-bottom: 12px;
+  background-image: url("/Assets/iphone15-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/****
+
+Vision Pro Section
+
+****/
+
+.vision-pro-section {
+  background-color: #fbfbfd;
+  color: #1d1d1f;
+  background-image: url("/Assets/hero_apple_vision_pro_startframe__dqlet46do5qq_large_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
