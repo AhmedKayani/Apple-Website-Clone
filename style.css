@@ -66,8 +66,11 @@ Hero Section
 
 ****/
 section {
-  background-color: black;
   height: 100vh;
+}
+
+.hero-section {
+  background-color: black;
 }
 
 h2 {
@@ -99,4 +102,15 @@ section a:hover {
   width: 600px;
   height: auto;
   /* transform: scale(4.5); */
+}
+
+/****
+
+iPhone 15 Section
+
+****/
+
+.iphone-15-section {
+  background-color: #fff;
+  color: #1d1d1f;
 }
