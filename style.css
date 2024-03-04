@@ -262,7 +262,6 @@ Abve footer Section
   color: #999999;
   font-size: 15px;
   line-height: 1.4;
-  /* padding: 32px 0; */
   height: auto;
 }
 
@@ -278,7 +277,8 @@ Abve footer Section
   margin-bottom: 12px;
 }
 
-.footer-section-1 {
+.footer-section-1,
+.footer-section-2 {
   padding-bottom: 32px;
   border-bottom: 2px solid #d1d1d1;
 }
@@ -313,4 +313,20 @@ strong {
 .footer-section-2 a:link {
   display: inline-block;
   font-size: 14px;
+}
+
+.full-col {
+  grid-column: 1 / -1;
+}
+
+.footer-section-3 {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.footer-section-3 a:link {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 200;
 }
