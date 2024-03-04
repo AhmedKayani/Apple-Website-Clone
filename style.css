@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
   background-color: #fff;
   color: #fff;
 }
@@ -13,6 +14,7 @@ body {
 .container-width {
   width: 1240px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .grid-container {
@@ -55,6 +57,18 @@ li {
   padding: 60px;
 }
 
+h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h5 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
 /**** 
 
 Top Navigation 
@@ -77,7 +91,8 @@ nav {
 }
 
 header a:link {
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
+  color: #ffffff;
 }
 
 /****
@@ -90,7 +105,7 @@ section {
 }
 
 .hero-section {
-  background-image: url("/Assets/hero-iPhone-15-pro-large.jpg");
+  background-image: url("./Assets/hero-iPhone-15-pro-large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -98,12 +113,13 @@ section {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 56px;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 32px;
-  font-weight: 200;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 span {
@@ -131,7 +147,7 @@ iPhone 15 Section
   grid-column: 1 / -1;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/iphone15-hero.png");
+  background-image: url("./Assets/iphone15-hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -147,7 +163,7 @@ Vision Pro Section
   grid-column: 1 / -1;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/hero_apple_vision_pro_startframe__dqlet46do5qq_large_2x.jpg");
+  background-image: url("./Assets/hero_apple_vision_pro_startframe__dqlet46do5qq_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,7 +178,7 @@ Apple Watch Series
 .watch-section {
   grid-column: 1 / 2;
   margin-bottom: 12px;
-  background-image: url("/Assets/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg");
+  background-image: url("./Assets/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -172,7 +188,7 @@ Apple Watch Series
   grid-column: 2 / 3;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/promo_mbp__ek7p477bkp6q_large_2x.jpg");
+  background-image: url("./Assets/promo_mbp__ek7p477bkp6q_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +204,7 @@ iPad Section
   grid-column: 1 / 2;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/promo_ipad__fioegapg12qi_large_2x.jpg");
+  background-image: url("./Assets/promo_ipad__fioegapg12qi_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -203,7 +219,7 @@ Airpods Pro Section
 .airpod-pro-section {
   grid-column: 2 / 3;
   margin-bottom: 12px;
-  background-image: url("/Assets/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg");
+  background-image: url("./Assets/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -213,7 +229,7 @@ Airpods Pro Section
   grid-column: 1 / 2;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/tile__cauwwcyyn9hy_large_2x.jpg");
+  background-image: url("./Assets/tile__cauwwcyyn9hy_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -224,9 +240,77 @@ Airpods Pro Section
   grid-column: 2 / 3;
   margin-bottom: 12px;
   color: #1d1d1f;
-  background-image: url("/Assets/promo_iphone_tradein__bugw15ka691e_large_2x.jpg");
+  background-image: url("./Assets/promo_iphone_tradein__bugw15ka691e_large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+
+/****
+
+Abve footer Section
+
+****/
+
+.bg-silver {
+  background-color: rgba(245, 245, 247, 1);
+}
+
+.footer-section {
+  grid-column: 1 / -1;
+  color: #999999;
+  font-size: 15px;
+  line-height: 1.4;
+  /* padding: 32px 0; */
+  height: auto;
+}
+
+.footer-section div {
+  padding: 16px 0;
+}
+
+.footer-section-1 ul li {
+  margin-bottom: 12px;
+}
+
+.footer-section-1 ul li {
+  margin-bottom: 12px;
+}
+
+.footer-section-1 {
+  padding-bottom: 32px;
+  border-bottom: 2px solid #d1d1d1;
+}
+
+.footer-section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-section-2 ul li {
+  display: block;
+}
+
+.footer-section-2 a:link {
+  font-weight: 200;
+}
+
+.footer-section-2 ul li {
+  margin-bottom: 18px;
+}
+
+.footer-section-2 ul li:last-child {
+  margin-bottom: 40px;
+}
+
+.footer-section-2 ul li a:link,
+strong {
+  color: #5b5b5b;
+  font-size: 16px;
+}
+
+.footer-section-2 a:link {
+  display: inline-block;
+  font-size: 14px;
 }
