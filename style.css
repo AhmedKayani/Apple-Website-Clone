@@ -12,7 +12,7 @@ body {
 }
 
 .container-width {
-  width: 1240px;
+  width: 1120px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -75,8 +75,10 @@ Top Navigation
 
 ****/
 header {
-  background-color: #1d1d1f;
+  background-color: rgb(29, 29, 31, 1);
   grid-column: 1 / -1;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -91,8 +93,13 @@ nav {
 }
 
 header a:link,
-a:link i {
-  /* color: rgba(255, 255, 255, 0.8); */
+header i {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+}
+
+header a:hover,
+header i:hover {
   color: #ffffff;
 }
 
