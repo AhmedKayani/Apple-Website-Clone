@@ -90,9 +90,18 @@ nav {
   align-items: center;
 }
 
-header a:link {
+header a:link,
+a:link i {
   /* color: rgba(255, 255, 255, 0.8); */
   color: #ffffff;
+}
+
+i {
+  font-size: 16px;
+}
+
+.apple-icon {
+  font-size: 24px;
 }
 
 /****
@@ -321,7 +330,6 @@ strong {
 
 .footer-section-3 {
   display: flex;
-
   justify-content: space-between;
 }
 
